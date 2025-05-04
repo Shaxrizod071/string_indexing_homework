@@ -6,5 +6,11 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if len(s)<=5:
+        return len(s)*('*')
+    if len(s)>5:
+        return False
+    else:
+        return False
+print(main('salom'))
         
