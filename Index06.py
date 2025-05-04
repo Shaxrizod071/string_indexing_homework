@@ -6,4 +6,5 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    return f"{s[0]}{s[-1]}"
+print(main('Assalom'))
