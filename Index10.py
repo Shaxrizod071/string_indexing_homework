@@ -6,4 +6,8 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    a=''
+    for i in s:
+        a+=i
+    return '+'.join(a)
+print('1','2','3')
